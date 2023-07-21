@@ -23,8 +23,8 @@ const Banner = () => {
           served international clients. On Fiverr, I hold Level-3 seller status,
           and on Freelancer, I boast a perfect 5-star rating. Now, I seek to
           join a single company where I can use my creativity and skills to
-          create captivating designs that meet the clients' needs and contribute
-          to the company's success.
+          create captivating designs that meet the clients needs and contribute
+          to the companys success.
         </p>
       </div>
     </div>
