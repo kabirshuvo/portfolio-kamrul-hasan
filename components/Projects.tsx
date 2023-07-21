@@ -16,34 +16,34 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
         <ProjectCard
           img={amazonClone.src}
-          title="Amazon Clone"
-          link="https://amazonclone.reactbd.com/"
+          title="Shocks Design"
+          link="https://www.google.com/"
         />
         <ProjectCard
           img={reactBD.src}
-          title="Cyber Security"
-          link="https://reactbd.com/"
+          title="Logo Design"
+          link="https://www.google.com/"
         />
         <ProjectCard
           img={cyberBlog.src}
-          title="Cyber Security"
-          link="https://blog.reactbd.com/"
+          title="Graphic Design"
+          link="https://www.google.com/"
         />
         <ProjectCard
           img={noorShop.src}
-          title="Noor Shopping"
-          link="https://orebishopping.reactbd.com/"
+          title="Traffic Design"
+          link="https://www.google.com/"
         />
         <ProjectCard
           img={dynamicPortfolio.src}
-          title="Dynamic Portfolio"
-          link="https://amazonclone.reactbd.com/"
+          title="Website Design"
+          link="https://www.google.com/"
         />
 
         <ProjectCard
           img={dashboard.src}
-          title="Dashboard"
-          link="https://orebishopping.reactbd.com/"
+          title="T-Shirt Design"
+          link="https://www.google.com/"
         />
       </div>
     </div>

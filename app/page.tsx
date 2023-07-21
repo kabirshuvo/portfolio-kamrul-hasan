@@ -4,6 +4,8 @@ import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 
 
 export default function Home() {
@@ -13,8 +15,10 @@ export default function Home() {
    <NavBar/>
     <Banner/>
     <Aboutme/>
-    <Footer/>
     <Experience/>
+    <Skills/>
+    <Projects/>
+    <Footer/>
    </div>
     </main>
   )
