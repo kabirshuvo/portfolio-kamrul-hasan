@@ -13,7 +13,7 @@ const Aboutme = () => {
           status on Fiverr, as well as a stellar 5-star rating on Freelancer. My
           creative prowess spans a wide range of design styles and projects,
           making me adept at delivering visually captivating solutions tailored
-          to each client's unique needs. With a passion for innovation and an
+          to each clients unique needs. With a passion for innovation and an
           unwavering commitment to excellence, I am now eager to channel my
           skills and dedication into a single company, bringing my creativity
           and expertise to contribute to their success.
