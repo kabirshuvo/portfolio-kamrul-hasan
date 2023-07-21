@@ -1,5 +1,6 @@
 import Aboutme from "@/components/Aboutme";
 import Banner from "@/components/Banner";
+import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -18,6 +19,7 @@ export default function Home() {
     <Experience/>
     <Skills/>
     <Projects/>
+    <Contact/>
     <Footer/>
    </div>
     </main>
