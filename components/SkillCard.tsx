@@ -38,7 +38,7 @@ const SkillCard = ({
             />
           </div>
         </a>
-        <div className='flex flex-col gap-7 justify-center items-center'>
+        <div className='flex flex-col gap-7 justify-center text-center md:text-left'>
           <h3 className='text-3xl text-green-500'>{title1}</h3>
           <p className='bottom-0 w-full py-1 text-white text-center font-semibold '>
             {description1}
@@ -53,8 +53,8 @@ const SkillCard = ({
         </div>
       </div>
       {/* right side image card */}
-      <div className='flex flex-col-reverse md:flex-row gap-7 p-4 mt-16'>
-        <div className='flex flex-col gap-7 justify-center items-center'>
+      <div className='flex flex-col-reverse md:flex-row gap-7 p-4 mt-4 '>
+        <div className='flex flex-col gap-7 justify-center text-center md:text-right'>
           <h3 className='text-3xl text-green-500'>{title2}</h3>
           <p className='bottom-0 w-full py-1 text-white text-center font-semibold '>
             {description2}
