@@ -73,6 +73,14 @@ const Skills = () => {
         description2="This is a Adobe Illustratro test description and I have write at least 20 to 30 words per description"
         />
       </div>
+      <div>
+
+        <div className="flex items-center justify-center py-7">
+       <button >
+        view more
+       </button>
+       </div>
+      </div>
     </div>
   );
 };

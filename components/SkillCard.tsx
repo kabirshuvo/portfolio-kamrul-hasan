@@ -18,24 +18,24 @@ interface Props {
 
 const SkillCard = ({title1, title2,image1, image2, link1, link2, description1, description2}: Props) => {
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center py-7'>
         {/* left side image card */}
         <div className='flex gap-7 p-4'>
            <a href={link1} target="_blank">
            <div >
             <Image
-          className="object-cover translate-y-0 group-hover:-translate-y-[65%] transition-transform duration-[3s]"
-          width={350}
-          height={350}
-          src={image1}
-          alt="PhotoShop"
-        />
+                className="object-cover "
+                width={250}
+                height={250}
+                src={image1}
+                alt="PhotoShop"
+            />
         
             </div>
             </a>
-            <div>
-                <h3>{title1}</h3>
-                <p>
+            <div className='flex flex-col gap-7 justify-center items-center'>
+                <h3 className='text-3xl text-green-500'>{title1}</h3>
+                <p className="bottom-0 w-full py-1 text-white text-center font-semibold ">
                     {description1}
                 </p>
                 <Link href={link1} target="_blank">View More</Link>
@@ -44,24 +44,26 @@ const SkillCard = ({title1, title2,image1, image2, link1, link2, description1, d
         </div>
         {/* {right side image card} */}
         <div className='flex gap-7 p-4'>
-            <div>
-                <h3>{title2}</h3>
-                <p>
+            <div className='flex flex-col gap-7 justify-center items-center'>
+                <h3 className='text-3xl text-green-500'>{title2}</h3>
+                <p className="bottom-0 w-full py-1 text-white text-center font-semibold ">
                     {description2}
                 </p>
-                <Link href={link2} target="_blank" />
+                <Link href={link2} target="_blank">View More</Link>
 
             </div>
 
+            <a href={link2} target='_blank'>
             <div>
             <Image
-             className="object-cover translate-y-0 group-hover:-translate-y-[65%] transition-transform duration-[3s]"
-             width={350}
-             height={350}
-             src={image2}
-             alt="Adobe Illustrator"
-        />
+                className="object-cover"
+                width={250}
+                height={250}
+                src={image2}
+                alt="Adobe Illustrator"
+            />
             </div>
+            </a>
 
         </div>
     </div>
