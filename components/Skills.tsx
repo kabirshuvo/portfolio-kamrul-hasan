@@ -1,6 +1,9 @@
 import { GiSkills } from "react-icons/gi";
 import Title from "./Title";
 import SkillsInput from "./SkillsInput";
+import SkillCard from "./SkillCard";
+import profileImg from "../public/img/profileImg.jpg"
+
 
 const Skills = () => {
   return (
@@ -55,6 +58,20 @@ const Skills = () => {
         <SkillsInput title="Website Design" link="https://themeforest.net/" />
         <SkillsInput title="Vercel" link="https://vercel.com/" />
         <SkillsInput title="netlify" link="https://www.netlify.com/" /> */}
+      </div>
+
+      <div>
+        <SkillCard 
+        
+        title1="Adobe PhotoShop"
+        title2="Adobe Illustrator"
+        image1={profileImg.src}
+        image2={profileImg.src}
+        link1="https://www.google.com"
+        link2="www.google.com"
+        description1="This is a Adobe photoshop test description and I have write at least 20 to 30 words per description"
+        description2="This is a Adobe Illustratro test description and I have write at least 20 to 30 words per description"
+        />
       </div>
     </div>
   );

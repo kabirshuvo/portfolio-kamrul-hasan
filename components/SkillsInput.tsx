@@ -13,4 +13,5 @@ const SkillsInput = ({ title, link }: Props) => {
   );
 };
 
+
 export default SkillsInput;
