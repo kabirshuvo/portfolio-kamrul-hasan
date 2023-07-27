@@ -51,8 +51,8 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden mt-2">
           {/* Add your mobile menu links here */}
-          <a href="#" className="block text-white py-2">Home</a>
-          <a href="#" className="block text-white py-2">About</a>
+          <a href="#" className="block text-white py-2">Skills</a>
+          <a href="#" className="block text-white py-2">Authentication</a>
           <a href="#" className="block text-white py-2">Contact</a>
         </div>
       )}
