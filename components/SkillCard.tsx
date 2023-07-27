@@ -26,9 +26,9 @@ const SkillCard = ({
   return (
     <div className='flex flex-col justify-center items-center py-7'>
       {/* left side image card */}
-      <div className='flex flex-col md:flex-row gap-7 p-4 mt-16'>
+      <div className='flex flex-col md:flex-row gap-7 p-4 mt-16 '>
         <a href={link1} target='_blank'>
-          <div className='w-96'>
+          <div className='w-96 flex justify-center items-center'>
             <Image
               className='object-cover rounded-lg'
               width={250}
@@ -48,12 +48,12 @@ const SkillCard = ({
             href={link1}
             target='_blank'
           >
-            View More
+            Inspect
           </Link>
         </div>
       </div>
       {/* right side image card */}
-      <div className='flex flex-col-reverse md:flex-row gap-7 p-4 mb-16'>
+      <div className='flex flex-col-reverse md:flex-row gap-7 p-4 mt-16'>
         <div className='flex flex-col gap-7 justify-center items-center'>
           <h3 className='text-3xl text-green-500'>{title2}</h3>
           <p className='bottom-0 w-full py-1 text-white text-center font-semibold '>
@@ -64,12 +64,12 @@ const SkillCard = ({
             href={link2}
             target='_blank'
           >
-            View More
+            Inspect
           </Link>
         </div>
 
         <a href={link2} target='_blank'>
-          <div className='w-96'>
+          <div className='w-96 flex justify-center items-center'>
             <Image
               className='object-cover rounded-lg'
               width={250}
